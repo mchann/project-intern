@@ -17,7 +17,7 @@ async function dbConnect() {
 
   if (!cached.promise) {
     cached.promise = mongoose.connect(MONGODB_URI!, {
-      dbName: "project-intern"
+      dbName: "log_magang"
     }).then((mongoose) => {
       return mongoose;
     });

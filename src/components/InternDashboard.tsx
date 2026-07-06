@@ -3,7 +3,7 @@ import InternActionButtons from "@/components/InternActionButtons";
 
 export default function InternDashboard({ activeTab, myLogs }: { activeTab: string, myLogs: any[] }) {
   
- 
+
   const typeColors: Record<string, string> = {
     HADIR: "bg-green-100 text-green-700",
     IZIN: "bg-orange-100 text-orange-700",
